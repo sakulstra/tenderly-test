@@ -1,0 +1,13 @@
+account_id: ""
+actions:
+  bgd-labs/seatbelt:
+    runtime: v1
+    sources: actions
+    specs:
+      github:
+        description: Action that dispatches.
+        function: github:githubFn
+        trigger:
+          type: transaction
+          transaction: {}
+project_slug: ""
